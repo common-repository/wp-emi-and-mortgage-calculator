@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'wp emi font';
+	src: url('../fonts/wp-emi-font.eot');
+	src: url('../fonts/wp-emi-font.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/wp-emi-font.woff') format('woff'),
+	url('../fonts/wp-emi-font.ttf') format('truetype'),
+	url('../fonts/wp-emi-font.svg#wp-emi-font') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+#toplevel_page_emi-settings-page [class*='dashicons-']:before{
+	display: inline-block;
+	font-family: 'wp emi font';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+.dashicons-wp_emi_mc_icon:before{content:'\0045';}

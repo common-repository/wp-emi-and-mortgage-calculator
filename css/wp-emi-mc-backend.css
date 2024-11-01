@@ -1,0 +1,43 @@
+/**
+ * wp-emi-mc-front-end-style
+ * @author Anjali
+ */
+
+
+/*------------- input field style -------------*/
+
+#wp_emi_mc_rate_per_annum{
+	font-size: 15px;
+	color: #464c71;
+	padding: 5px 2px;
+	line-height: initial;
+	height: initial;
+	border-radius: 0;
+	width: 15%;
+}
+
+/*------------- form style -------------*/
+.wp_emi_mc_option{
+	padding-top: 7px;	
+}
+.wp_emi_mc_option label{
+	padding-right: 10px;	
+}
+label,p{
+	font-size: 14px;
+}
+.wp_emi_mc_components_notice__content{
+	padding: 11px 0;
+	font-size: 14px;
+	color: #ce2519;
+}
+.wp_emi_mc_text{
+	padding: 10px 0px;
+	font-weight: 500;
+}
+.wp_emi_mc_button{
+	padding: 4px 30px;
+}
+.wp_emi_mc_label{
+	padding: 6px 0;
+}

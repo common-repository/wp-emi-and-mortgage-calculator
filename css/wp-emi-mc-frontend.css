@@ -1,0 +1,68 @@
+/**
+ * wp-emi-mc-front-end-style
+ * @author Anjali,Anogh
+ */
+
+/*------------- form label style -------------*/
+
+.wp-emi-mc-calculate-form label{
+	display: inline-block;
+	min-width: 148px;
+}
+
+/*------------- header text style -------------*/
+h2.wp_emi_mc_header{
+	margin-bottom: 20px;
+	color: #009ac7;
+	font-size: 40px;
+}
+
+/*------------- input field style -------------*/
+
+.wp-emi-mc-calculate-form input[type=number]{
+	background-color: #eee !important;border: none;
+	border-bottom: 1px solid #009ac7;
+	font-size: 15px;
+	color: #999;
+	padding: 11px 13px;
+	line-height: initial;
+	height: initial;
+	border-radius: 0;
+}
+.wp_emi_mc_loan_term_span
+{
+	padding-left: 165px;
+}
+#wp_emi_mc_fixed_deposit::-webkit-inner-spin-button, 
+#wp_emi_mc_fixed_deposit::-webkit-outer-spin-button,
+#wp_emi_mc_dynamic_deposit::-webkit-inner-spin-button, 
+#wp_emi_mc_dynamic_deposit::-webkit-outer-spin-button,
+#wp_emi_mc_fixed_total_cost::-webkit-inner-spin-button, 
+#wp_emi_mc_fixed_total_cost::-webkit-outer-spin-button,
+#wp_emi_mc_dynamic_total_cost::-webkit-inner-spin-button, 
+#wp_emi_mc_dynamic_total_cost::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: 0; 
+}
+/*------------- Table style -------------*/
+table.wp_emi_mc_table td, .wp_emi_mc_table{
+	border: unset;
+}
+#wp_emi_mc_show_emi_value{
+	font-size:18px;
+}
+/*------------- Media Query -------------*/
+
+@media only screen and (max-width: 600px) {
+	#wp_emi_mc_show_emi_value{
+		font-size: 10px !important;
+	}
+}
+@media only screen and (max-width: 480px) {
+	#wp_emi_mc_show_emi_value th, #wp_emi_mc_show_emi_value td{
+		font-size: 8px !important;
+		padding: 10px 4px !important;
+	}
+}
